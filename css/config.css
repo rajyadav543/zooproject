@@ -1,0 +1,131 @@
+@media only screen and (min-width: 250px) and ( max-width:575px ){
+	
+	/*==== banner section ===*/
+	.innerDiv h2{
+		font-size: 26px;
+	}
+	.whyInnerDiv{
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.welcomRightDiv h3{
+		font-size: 29px;
+	}
+	.clipDiv{
+		width: 100%;
+		height: 100%;
+	}
+	.rowdiv{
+		margin-bottom: 50px;
+	}
+	#rowdiv1{
+		flex-direction: column-reverse !important;
+	}
+	#rowdiv2{
+		flex-direction: column-reverse;
+	}
+	.aboutInner h2{
+		margin: 2%;
+	}
+
+	.menuIteam .innerItem ul{
+		display: none;
+	}
+	.enqryBtn{
+		display: none;
+	}
+	#row{
+		flex-direction: column-reverse;
+	}
+
+	/*-- Menu btn --*/
+	.menuIteam{
+		display: none;
+	}
+	#solidIcon{
+		display: block !important;
+	}
+
+
+	/*=========== details page =========*/
+	.innerContainerBanner h4{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.bannerprice ul li{
+		display: block;
+		border: none;
+	}
+
+
+
+}
+
+
+/*============================= Meidium screen=================*/
+
+@media only screen and (min-width:576px) and (max-width:768px){
+
+	.innerDiv h2{
+		font-size: 26px;
+	}
+	.whyInnerDiv{
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.welcomRightDiv h3{
+		font-size: 29px;
+	}
+	.clipDiv{
+		width: 100%;
+		height: 100%;
+	}
+	.rowdiv{
+		margin-bottom: 50px;
+	}
+	#rowdiv1{
+		flex-direction: column-reverse !important;
+	}
+	#rowdiv2{
+		flex-direction: column-reverse;
+	}
+	.aboutInner h2{
+		margin: 2%;
+	}
+
+	.menuIteam .innerItem ul{
+		display: none;
+	}
+	#row{
+		flex-direction: column-reverse;
+	}
+
+
+
+
+	/*-- Menu btn --*/
+	.menuIteam{
+		display: none;
+	}
+	#solidIcon{
+		display: block;
+	}
+
+}
+
+
+
+/*============== large mobile device ==============*/
+@media only screen and (min-width:769px) and (max-width:991px){
+
+	.menuIteam{
+		display: none;
+	}
+	#solidIcon{
+		display: block;
+	}
+
+}
+
+

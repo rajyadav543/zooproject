@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Details Page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+
+	<!-- icon -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/config.css">
+</head>
+<body>
+
+
+	<!-- enquiry form -->
+	<section class="container-fluid enquiryform" >
+		<div class="container">
+			<div class="row ">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-7 fromSection p-0">
+					<div class="closebtn" onclick="hideMenu()">
+						<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+					</div>
+					<div class="formInner">
+						
+						<div class="formField">
+							<h3>Get in Touch</h3>
+							<p>we are here for you! How can we help  you?</p>
+							<form>
+								<div class="inputField">
+									<input type="text" name="" placeholder="Enter Your Name">
+								</div>
+								<div class="inputField">
+									<input type="text" name="" placeholder="Enter Your Eamil">
+								</div>
+								<div class="inputField">
+									<input type="text" name="" placeholder="Enter Your Phone">
+								</div>
+								<div class="inputField">
+									<select >
+										<option>Select Park</option>
+										<option>National Park</option>
+									</select>
+								</div>
+								<div class="inputField">
+									<textarea placeholder="Message"></textarea>
+
+									<button><a href="">Submit</a></button>
+								</div>
+							</form>
+						</div>
+
+						<div class="contactField">
+							<div class="contImg">
+								<img src="img/contact-page-banner.png">
+							</div>
+							<div class="info">
+								<div class="iconInfo">
+									<i class="fa-solid fa-location-dot"></i>
+								</div>
+								<div class="address">
+									Lorem Ipsom, Lorem Ipsom
+								</div>
+							</div>
+							<div class="info">
+								<div class="iconInfo">
+									<i class="fa-solid fa-phone"></i>
+								</div>
+								<div class="address">
+									+91-123456789
+								</div>
+							</div>
+							<div class="info">
+								<div class="iconInfo">
+									<i class="fa-solid fa-location-dot"></i>
+								</div>
+								<div class="address">
+									info@company.gmail
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- enquiry form -->
+
+	<!-- about us section -->
+	<section class="container-fluid aboutPagesec">
+		<div class="container">
+			<div class="container-fluid" id="cont">
+
+				<div class="container" >
+					<div class="menuMainDiv" id="meuDiv">
+						<div class="logoDiv">
+							<a href="">Logo</a>
+						</div>
+
+						<div class="menuIteam">
+							<div class="innerItem">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About us</a></li>
+									<li>
+										National Park & Safari
+										<ul class="submenu">
+											<li><a href="deatail.html">National park 1</a></li>
+											<li><a href="deatail.html">National park 1</a></li>
+											<li><a href="deatail.html">National park 1</a></li>
+											<li><a href="deatail.html">National park 1</a></li>
+											<li><a href="deatail.html">National park 1</a></li>
+										</ul>
+									</li>
+									<li><a href="package.html">Package</a></li>
+									
+									<li><a href="contact.html">Contactus</a></li>
+								</ul>
+								
+								<button class="enqryBtn" onclick="showMenu()"><a >Eqnuire Now</a></button>
+							</div>
+						</div>
+						<span id="solidIcon"><i class="fa-solid fa-bars text-white fs-1" onclick="mobileMenu()" ></i></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- about us section -->
+
+	<!-- mobile menu -->
+	<section class="mobileMenu container-fluid p-0">
+		
+			<div class="innerMobile"  >
+				<div class="mobMenuDiv" >
+					<div class="mobmenuItem">
+						<h2><a href="">Lorem Ipsum</a></h2>
+						<p ><i class="fa-solid fa-xmark" onclick="mobileMenu()"></i></p>
+					</div>
+					<div class="mobMenuDiv MmenuItem">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li>
+								National Park & Safari
+								<ul class="mobSubMenu" id="subMenu">
+									<li><a href="deatail.html">National Park 1</a></li>
+									<li><a href="deatail.html">National Park 1</a></li>
+									<li><a href="deatail.html">National Park 1</a></li>
+									<li><a href="deatail.html">National Park 1</a></li>
+								</ul>
+							</li>
+							<li><a href="package.html">Package</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- mobile menu -->
+
+
+
+	<section class="container-fluid packagePageSec">
+		<div class="imgSectionpackDetails">
+			<div class="innerCover">
+				<div class="imgBanner">
+					<img src="img/bg2.jpg">	
+				</div>
+
+				<div class="packBannertitle container">
+					<div class="innerContainerBanner">
+						<h4>ALL WOMEN - GOLDEN TRIANGLE TOUR WITH ORCHHA, KHAJURAHO AND VARANASI</h4>
+						<div class="bannerprice">
+							<ul>
+								<li> <span>Price : </span> <br/>
+									<i class="fa-solid fa-dollar-sign"></i> 500
+								</li>
+								<li> <span>Duration : </span> <br/>
+									11 Night / 12 Days
+								</li>
+								<li> <span>City : </span> <br/>
+									Lorem Ipsum
+								</li>
+
+							</ul>						
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+
+		<!-- pack details right section -->
+		<div class="container packContainer detailPack">
+
+			
+
+			<div class="row  ">
+
+				<!-- search and related list section-->
+				<div class="col-lg-4 mt-4">
+					
+
+					<div class="packSeachLeft">
+						<h2>Lorem Search</h2>
+						<input type="" name="" placeholder="Type for search">
+						<button><a href="">Search</a></button>
+					</div>
+
+
+					<div class="packSeachLeft2 mt-4">
+						<div class="innerLeft">
+							<h2>List Tour</h2>
+						</div>
+						<div class="relTourDiv">
+							<div class="relImg">
+								<a href=""><img src="img/orangutan-of-borneo-pongo-pygmaeus.jpg"></a>
+							</div>
+							<div class="relDetl">
+								<p class="ms-2"><a href="">Title Lore Ipsum</a></p>
+								<p class="ms-2"><a href="">Lorem Ipsum details</a></p>
+							</div>
+						</div>
+						
+						<div class="relTourDiv">
+							<div class="relImg">
+								<a href=""><img src="img/orangutan-of-borneo-pongo-pygmaeus.jpg"></a>
+							</div>
+							<div class="relDetl">
+								<p class="ms-2"><a href="">Title Lore Ipsum</a></p>
+								<p class="ms-2"><a href="">Lorem Ipsum details</a></p>
+							</div>
+						</div>
+						
+						<div class="relTourDiv">
+							<div class="relImg">
+								<a href=""><img src="img/orangutan-of-borneo-pongo-pygmaeus.jpg"></a>
+							</div>
+							<div class="relDetl">
+								<p class="ms-2"><a href="">Title Lore Ipsum</a></p>
+								<p class="ms-2"><a href="">Lorem Ipsum details</a></p>
+							</div>
+						</div>
+						
+						<div class="relTourDiv">
+							<div class="relImg">
+								<a href=""><img src="img/orangutan-of-borneo-pongo-pygmaeus.jpg"></a>
+							</div>
+							<div class="relDetl">
+								<p class="ms-2"><a href="">Title Lore Ipsum</a></p>
+								<p class="ms-2"><a href="">Lorem Ipsum details</a></p>
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="packSeachLeft2 mt-4">
+						<div class="innerLeft">
+							<h2>Sport light tour</h2>
+						</div>
+						<div class="relTourDiv">
+							<div class="relDetl">
+								<p > Duration : 11 Night / 12 Days</p>
+							</div>
+						</div>
+						<div class="relTourDiv">
+							<div class="relDetl">
+								<p class="">Starting :  <i class="fa-solid fa-dollar-sign"></i> 500</p>
+							</div>
+						</div>
+
+						<div class="relTourDiv">
+							<div class="relDetl">
+								<p >Route : 11 Night / 12 Days</p>
+								
+							</div>
+						</div>
+						<div class="reltourDiv btnReltour">
+							<button class="my-2"><a href="">Book</a></button>
+						</div>
+						
+						
+
+					</div>
+
+				</div>
+				<!-- search and related list section-->
+
+				<!-- overview and hightlight section -->
+				<div class="col-lg-8 ">
+					<div class="detailpackInner">
+						
+
+						<div class="packDetail">
+							<p class="pTitle">Tour Overview</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+
+						
+
+						<hr/>
+						<div class="packDetail">
+							<h4 class="pTitle">Highlight</h4>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							<p><i class="fa-regular fa-circle-dot"></i> Visit the Qutub Minar - tallest brick minaret in the world - in Delhi.</p>
+							
+							<!-- <div class="bookbtn">
+								<button><a href="">Book</a></button>
+							</div> -->
+						</div>
+						<hr />
+
+						<!-- faq section -->
+						<div class="detailFaq">
+							<h6>itienery</h6>
+							<div class="faq_item p-0">
+								<h2 class="bgclass">HighLight <i class="fa-solid fa-minus"></i></h2>
+								<p class="active"> <i class="fa-solid fa-check"></i>  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus error perferendis commodi quidem nulla placeat molestiae vero ab, eveniet, quis temporibus sequi rem? Molestias sed facilis dolores vel consequatur?
+									
+								</p>
+
+							</div>
+							<div class="faq_item">
+								<h2>Lorem Ipsum <i class="fa-solid fa-plus"></i></h2>
+
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus error perferendis commodi quidem nulla placeat molestiae vero ab, eveniet, quis temporibus sequi rem? Molestias sed facilis dolores vel consequatur?</p>
+
+
+
+							</div>
+							<div class="faq_item">
+								<h2>Lorem Ipsum <i class="fa-solid fa-plus"></i></h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus error perferendis commodi quidem nulla placeat molestiae vero ab, eveniet, quis temporibus sequi rem? Molestias sed facilis dolores vel consequatur?</p>
+							</div>
+							<div class="faq_item">
+								<h2 class="">Lorem Ipsum <i class="fa-solid fa-plus"></i></h2>
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus error perferendis commodi quidem nulla placeat molestiae vero ab, eveniet, quis temporibus sequi rem? Molestias sed facilis dolores vel consequatur?</p>
+							</div>
+						</div> 
+						<!-- faq section -->
+						<hr />
+						<!-- inclusion -->
+						<div class="inclusiondiv">
+							<p>Inclusion</p>
+							<ul>
+								<li><i class="fa-solid fa-check"></i> Lorem Ipsum</li>
+								<li><i class="fa-solid fa-check"></i> Lorem Ipsum</li>
+								<li><i class="fa-solid fa-check"></i> Lorem Ipsum</li>
+								<li><i class="fa-solid fa-check"></i> Lorem Ipsum</li>
+
+							</ul>
+						</div>
+						<!-- inclusion -->
+						<hr />
+						<!-- Exclusion -->
+						<div class="inclusiondiv exclus">
+							<p>Exclusion</p>
+							<ul>
+								<li><i class="fa-solid fa-xmark"></i> Lorem Ipsum</li>
+								<li><i class="fa-solid fa-xmark"></i> Lorem Ipsum</li>
+								<li><i class="fa-solid fa-xmark"></i> Lorem Ipsum</li>
+								<li><i class="fa-solid fa-xmark"></i> Lorem Ipsum</li>
+								
+							</ul>
+						</div>
+						<!-- exclustion -->
+
+					</div>
+				</div>
+				<!-- overview and hightlight section -->
+
+				
+
+			</div>
+		</div>
+		<!-- pack details right section -->
+	</section>
+
+
+	
+
+
+	<!-- footer -->
+	<footer class="container-fluid">
+		<div class="container footerContainer">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="innerFooterDiv">
+						<h4>Company Info</h4>
+						<ul>
+							<li><a href="">About us</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Term & Condition</a></li>
+							<li><a href="">Cancellation Policy</a></li>
+							<li><a href="">Constact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="innerFooterDiv">
+						<h4>Top National Park</h4>
+						<ul>
+							<li><a href="">National Ipsum Park</a></li>
+							<li><a href="">National Ipsum Park</a></li>
+							<li><a href="">National Ipsum Park</a></li>
+							<li><a href="">National Ipsum Park</a></li>
+							<li><a href="">National Ipsum Park</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="innerFooterDiv">
+						<h4>Popular Countries</h4>
+						<ul>
+							<li><a href="">Lorem Ipsum</a></li>
+							<li><a href="">Lorem Ipsum</a></li>
+							<li><a href="">Lorem Ipsum</a></li>
+							<li><a href="">Lorem Ipsum</a></li>
+							<li><a href="">Lorem Ipsum</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="innerFooterDiv">
+						<h4>Mailing Address:</h4>
+						<p>Office Address</p>
+						<p>Email : -<span>info@comapany.com</span></p>
+						<p>Phone/Whatapps :- <span>+******999</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer -->
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" /></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" /></script>
+<script type="text/javascript" src="js/app.js"></script>
+</html>
